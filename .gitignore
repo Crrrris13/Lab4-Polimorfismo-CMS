@@ -1,0 +1,15 @@
+*.class
+*.iml.vscode/
+.vscode/
+.jar
+.classpath
+# Archivos generados por Maven:
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+build.log
+.log

@@ -1,3 +1,5 @@
-public class Academico {
-    
+package com.ega.cms.modelo;
+
+public interface Academico {
+
 }

@@ -1,0 +1,97 @@
+/* --- Estilo General --- */
+.root {
+    -fx-font-family: 'Arial', sans-serif;
+    -fx-background-color: #FFFFFF;
+}
+
+/* --- Panel Menú Izquierdo --- */
+.menu-izquierdo {
+    -fx-background-color: #3B4A6A;
+    -fx-padding: 20px 10px;
+    -fx-spacing: 15px;
+    -fx-min-width: 200px;
+}
+
+.boton-menu {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-pref-width: 180px;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 8px 15px;
+}
+
+.boton-menu:hover {
+    -fx-background-color: #4F5E81;
+    -fx-background-radius: 5px;
+}
+
+/* --- Panel Superior --- */
+.header-bar {
+    -fx-alignment: center-right;
+    -fx-padding: 0 10px 10px 10px;
+    -fx-background-color: #F8F9FA;
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.label-usuario {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* --- Panel Central --- */
+.panel-central {
+    -fx-padding: 10px 20px;
+    -fx-spacing: 15px;
+}
+
+.barra-acciones {
+    -fx-alignment: center-left;
+    -fx-spacing: 10px;
+}
+
+.boton-accion {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5px;
+}
+
+/* Botón especial azul */
+.boton-nuevo-contenido {
+    -fx-background-color: #007BFF;
+    -fx-text-fill: white;
+}
+.boton-nuevo-contenido:hover {
+    -fx-background-color: #0056b3;
+}
+
+/* Botones grises */
+.boton-secundario {
+    -fx-background-color: #E9ECEF;
+    -fx-text-fill: #343A40;
+}
+.boton-secundario:hover {
+    -fx-background-color: #D6DDE3;
+}
+
+/* --- Tabla de Contenidos --- */
+.table-view {
+    -fx-border-color: #DEE2E6;
+    -fx-border-radius: 5px;
+}
+
+/* --- Panel de Creación --- */
+.panel-detalle {
+    -fx-background-color: #F8F9FA;
+    -fx-padding: 15px;
+    -fx-border-color: #DEE2E6;
+    -fx-border-radius: 5px;
+    -fx-spacing: 8px;
+}
+
+.label-detalle {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
